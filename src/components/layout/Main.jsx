@@ -10,8 +10,10 @@ const Main = () => {
     useEffect(() => {
 
         const timeId = setTimeout(() => {
+            document.querySelector("calcite-shell").hidden = false;
+            document.querySelector("calcite-loader").hidden = true;
             setLoading(false);
-        }, 2000);
+        }, 1000);
 
         return () => clearTimeout(timeId);
 

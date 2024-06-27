@@ -13,8 +13,6 @@ const MapContainer = () => {
 
             viewMap.when(function () {
 
-                document.querySelector("calcite-shell").hidden = false;
-                document.querySelector("calcite-loader").hidden = true;
 
             });
 
