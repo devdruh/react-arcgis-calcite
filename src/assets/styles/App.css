@@ -1,0 +1,30 @@
+#root {
+    margin: 0 auto;
+}
+
+calcite-label {
+    --calcite-label-margin-bottom: 0px;
+}
+
+calcite-loader {
+    top: 40%;
+}
+
+.label-wrapper {
+    display: flex;
+    margin-inline: 1rem;
+    padding: 0.5rem;
+    border: 1px solid var(--calcite-color-border-1);
+    cursor: pointer;
+}
+
+.map-container {
+    height: calc(100vh - 65px);
+}
+
+#map-view {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
